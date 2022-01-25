@@ -35,7 +35,14 @@ export const actions = {
         }
     },
     collect: async function collect (obj) {
-        const pp = (new PromisePlaceholder_default()).collect(obj);
+        const mapper = function (v) {
+            let url;
+            if (typeof v === 'string' && (url = criteria.satisfies(v))) {
+                return actions.fetch(url, reviver);
+            }
+            return v;
+        };
+        const pp = (new PromisePlaceholder_default(mapper)).collect(obj);
         if(pp.size()) {
             pp.setReviver('ignore')
             await pp.exec();
