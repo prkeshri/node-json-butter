@@ -1,6 +1,6 @@
 {
   "name": "json-butter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Spread operator in json",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "json5": "^2.2.0",
     "node-fetch": "^3.2.0",
-    "promise-placeholder": "^1.0.0"
+    "promise-placeholder": "^1.4.0"
   },
   "type": "module",
   "devDependencies": {},
