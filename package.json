@@ -1,0 +1,30 @@
+{
+  "name": "json-butter",
+  "version": "0.0.0",
+  "description": "Spread operator in json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praveen Ranjan Keshri",
+  "license": "ISC",
+  "dependencies": {
+    "json5": "^2.2.0",
+    "node-fetch": "^3.2.0",
+    "promise-placeholder": "^1.0.0"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prkeshri/node-json-butter.git"
+  },
+  "keywords": [
+    "json-spread",
+    "spread"
+  ],
+  "bugs": {
+    "url": "https://github.com/prkeshri/node-json-butter/issues"
+  },
+  "homepage": "https://github.com/prkeshri/node-json-butter#readme"
+}
